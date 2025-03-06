@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    text-align: center;
+}
+
+#number-display-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 155px;
+    height: 120px;
+    padding: 10px;
+    background-color: #080001;
+    border-radius: 5px;
+}
+
+#number-display-guest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 155px;
+    height: 120px;
+    padding: 10px;
+    background-color: #080001;
+    border-radius: 5px;
+}
+#home-number, #guest-number {
+    font-family: "CursedTimerUlil", sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+}
+
+.button-home, .button-guest {
+    display: flex;
+}
+
+.guest-plus1-btn, .guest-plus2-btn, .guest-plus3-btn, .home-plus1-btn, .home-plus2-btn, .home-plus3-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #9AABD8;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #9AABD8;
+    margin: 30px 10px 10px 10px;
+    font-family: "CursedTimerUlil", sans-serif;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: "CursedTimerUlil";
+    src: url('CursedTimerUlil-Aznm.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
