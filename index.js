@@ -1,5 +1,6 @@
 let homeEl = document.getElementById("home-number")
 let guestEl = document.getElementById("guest-number")
+let newGame = document.getElementById("new-game")
 let homeCount = 0;
 let guestCount = 0;
 
@@ -31,4 +32,9 @@ function plus2guest() {
 function plus3guest() {
     guestCount += 3;
     guestEl.textContent = guestCount;
+}
+
+function newgame() {
+    homeEl.textContent = 0;
+    guestEl.textContent = 0;
 }
